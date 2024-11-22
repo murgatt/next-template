@@ -5,6 +5,7 @@ This is a simple [Next.js](https://nextjs.org/) starter template bootstrapped wi
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [next-intl](https://next-intl-docs.vercel.app/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
 - [typescript-eslint](https://typescript-eslint.io/)
