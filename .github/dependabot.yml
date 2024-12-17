@@ -13,6 +13,14 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+    groups:
+      next-js:
+        patterns:
+          - 'next'
+          - 'eslint-config-next'
+      typescript-eslint:
+        patterns:
+          - '@typescript-eslint/*'
     commit-message:
       prefix: "chore"
       prefix-development: "chore"
