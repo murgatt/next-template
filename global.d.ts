@@ -1,7 +1,8 @@
-import type en from './src/i18n/locales/en.json';
+import type messages from './src/i18n/locales/en.json';
 
-type Messages = typeof en;
-
-declare global {
-  type IntlMessages = Messages;
+declare module 'next-intl' {
+  // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
+  interface AppConfig {
+    Messages: typeof messages;
+  }
 }
