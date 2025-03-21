@@ -14,7 +14,7 @@
     "types": "tsc"
   },
   "dependencies": {
-    "next": "15.2.0",
+    "next": "15.2.3",
     "next-intl": "4.0.2",
     "react": "19.0.0",
     "react-dom": "19.0.0"
