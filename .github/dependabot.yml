@@ -18,6 +18,10 @@ updates:
         patterns:
           - 'next'
           - 'eslint-config-next'
+      react:
+        patterns:
+          - 'react'
+          - 'react-dom'
       typescript-eslint:
         patterns:
           - '@typescript-eslint/*'
