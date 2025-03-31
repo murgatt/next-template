@@ -16,7 +16,7 @@
   "dependencies": {
     "next": "15.2.3",
     "next-intl": "4.0.2",
-    "react": "19.0.0",
+    "react": "19.1.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
@@ -26,7 +26,7 @@
     "@testing-library/react": "16.2.0",
     "@testing-library/user-event": "14.6.0",
     "@types/node": "22.13.1",
-    "@types/react": "19.0.0",
+    "@types/react": "19.0.12",
     "@types/react-dom": "19.0.0",
     "@typescript-eslint/eslint-plugin": "8.26.0",
     "@typescript-eslint/parser": "8.26.0",
