@@ -14,17 +14,18 @@ updates:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
     groups:
+      eslint:
+        patterns:
+          - 'eslint'
+          - '@eslint/js'
       next-js:
         patterns:
           - 'next'
-          - 'eslint-config-next'
+          - '@next/eslint-plugin-next'
       react:
         patterns:
           - 'react'
           - 'react-dom'
-      typescript-eslint:
-        patterns:
-          - '@typescript-eslint/*'
     commit-message:
       prefix: "chore"
       prefix-development: "chore"
