@@ -1,20 +1,13 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-foreground: rgb(0 0 0);
-  --color-background-start: rgb(214 219 220);
-  --color-background-end: rgb(255 255 255);
+  --color-background: #ffffff;
+  --color-foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-foreground: rgb(255 255 255);
-    --color-background-start: rgb(0 0 0);
-    --color-background-end: rgb(0 0 0);
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
   }
-}
-
-body {
-  color: var(--color-foreground);
-  background: linear-gradient(to bottom, transparent, var(--color-background-end)) var(--color-background-start);
 }
