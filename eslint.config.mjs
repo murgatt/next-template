@@ -13,6 +13,7 @@ export default defineConfig(
   tseslint.configs.strictTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   importPlugin.flatConfigs.recommended,
+  reactHooksPlugin.configs.flat.recommended,
   {
     languageOptions: {
       parserOptions: {
@@ -41,7 +42,6 @@ export default defineConfig(
   {
     rules: {
       ...reactPlugin.configs['jsx-runtime'].rules,
-      ...reactHooksPlugin.configs.recommended.rules,
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
