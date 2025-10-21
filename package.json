@@ -37,7 +37,7 @@
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-react": "7.37.4",
     "eslint-plugin-react-hooks": "7.0.0",
-    "eslint-plugin-unused-imports": "4.2.0",
+    "eslint-plugin-unused-imports": "4.3.0",
     "jsdom": "27.0.0",
     "postcss": "8.5.1",
     "prettier": "3.6.2",
