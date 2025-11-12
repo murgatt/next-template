@@ -3,6 +3,9 @@ import type { NextConfig } from 'next';
 
 const withNextIntl = createNextIntlPlugin();
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  reactCompiler: true,
+  typedRoutes: true,
+};
 
 export default withNextIntl(nextConfig);
