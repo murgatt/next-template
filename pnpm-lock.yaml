@@ -43,8 +43,8 @@ importers:
         specifier: 14.6.1
         version: 14.6.1(@testing-library/dom@10.4.1)
       '@types/node':
-        specifier: 24.10.0
-        version: 24.10.0
+        specifier: 25.0.2
+        version: 25.0.2
       '@types/react':
         specifier: 19.2.7
         version: 19.2.7
@@ -53,7 +53,7 @@ importers:
         version: 19.2.3(@types/react@19.2.7)
       '@vitejs/plugin-react':
         specifier: 5.1.1
-        version: 5.1.1(vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))
+        version: 5.1.1(vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))
       babel-plugin-react-compiler:
         specifier: 1.0.0
         version: 1.0.0
@@ -101,10 +101,10 @@ importers:
         version: 8.48.0(eslint@9.39.1(jiti@2.4.2))(typescript@5.9.2)
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.9.2)(vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))
+        version: 5.1.4(typescript@5.9.2)(vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))
       vitest:
         specifier: 4.0.8
-        version: 4.0.8(@types/node@24.10.0)(jiti@2.4.2)(jsdom@27.2.0)(lightningcss@1.29.2)(yaml@2.6.1)
+        version: 4.0.8(@types/node@25.0.2)(jiti@2.4.2)(jsdom@27.2.0)(lightningcss@1.29.2)(yaml@2.6.1)
 
 packages:
 
@@ -1068,8 +1068,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@24.10.0':
-    resolution: {integrity: sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==}
+  '@types/node@25.0.2':
+    resolution: {integrity: sha512-gWEkeiyYE4vqjON/+Obqcoeffmk0NF15WSBwSs7zwVA2bAbTaE0SJ7P0WNGoJn8uE7fiaV5a7dKYIJriEqOrmA==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -2379,6 +2379,7 @@ packages:
   next@16.0.9:
     resolution: {integrity: sha512-Xk5x/wEk6ADIAtQECLo1uyE5OagbQCiZ+gW4XEv24FjQ3O2PdSkvgsn22aaseSXC7xg84oONvQjFbSTX5YsMhQ==}
     engines: {node: '>=20.9.0'}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -3972,7 +3973,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@24.10.0':
+  '@types/node@25.0.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -4129,7 +4130,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.7.2':
     optional: true
 
-  '@vitejs/plugin-react@5.1.1(vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))':
+  '@vitejs/plugin-react@5.1.1(vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
@@ -4137,7 +4138,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.47
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
+      vite: 7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4150,13 +4151,13 @@ snapshots:
       chai: 6.2.1
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.8(vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))':
+  '@vitest/mocker@4.0.8(vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))':
     dependencies:
       '@vitest/spy': 4.0.8
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
+      vite: 7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
 
   '@vitest/pretty-format@4.0.8':
     dependencies:
@@ -6249,18 +6250,18 @@ snapshots:
       intl-messageformat: 10.7.16
       react: 19.2.1
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.2)(vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.9.2)(vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.9.2)
     optionalDependencies:
-      vite: 7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
+      vite: 7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1):
+  vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6269,16 +6270,16 @@ snapshots:
       rollup: 4.53.2
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.10.0
+      '@types/node': 25.0.2
       fsevents: 2.3.3
       jiti: 2.4.2
       lightningcss: 1.29.2
       yaml: 2.6.1
 
-  vitest@4.0.8(@types/node@24.10.0)(jiti@2.4.2)(jsdom@27.2.0)(lightningcss@1.29.2)(yaml@2.6.1):
+  vitest@4.0.8(@types/node@25.0.2)(jiti@2.4.2)(jsdom@27.2.0)(lightningcss@1.29.2)(yaml@2.6.1):
     dependencies:
       '@vitest/expect': 4.0.8
-      '@vitest/mocker': 4.0.8(vite@7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))
+      '@vitest/mocker': 4.0.8(vite@7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1))
       '@vitest/pretty-format': 4.0.8
       '@vitest/runner': 4.0.8
       '@vitest/snapshot': 4.0.8
@@ -6295,10 +6296,10 @@ snapshots:
       tinyexec: 0.3.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.2.2(@types/node@24.10.0)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
+      vite: 7.2.2(@types/node@25.0.2)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.10.0
+      '@types/node': 25.0.2
       jsdom: 27.2.0
     transitivePeerDependencies:
       - jiti
