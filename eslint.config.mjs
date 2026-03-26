@@ -24,8 +24,6 @@ export default defineConfig(
       },
     },
     plugins: {
-      react: reactPlugin,
-      'react-hooks': reactHooksPlugin,
       '@next/next': nextPlugin,
       'unused-imports': unusedImports,
     },
@@ -34,6 +32,7 @@ export default defineConfig(
         version: 'detect',
       },
       'import/resolver': {
+        node: true,
         typescript: {
           alwaysTryTypes: true,
           project: 'tsconfig.json',
@@ -43,7 +42,6 @@ export default defineConfig(
   },
   {
     rules: {
-      ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
       '@typescript-eslint/consistent-type-exports': 'error',
@@ -55,6 +53,7 @@ export default defineConfig(
           typeLiterals: { order: 'alphabetically-case-insensitive' },
         },
       ],
+      '@typescript-eslint/no-shadow': 'error',
 
       'import/first': 'error',
       'import/newline-after-import': 'error',
@@ -69,7 +68,6 @@ export default defineConfig(
 
       'newline-before-return': 'error',
       'no-console': 'error',
-      'no-shadow': 'error',
 
       'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.test.tsx'] }],
       'react/jsx-sort-props': ['error', { ignoreCase: true }],
