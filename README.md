@@ -1,7 +1,9 @@
 ## Overview
-This is a simple [Next.js](https://nextjs.org/) starter template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) are included and configured with a bunch of rules. It also comes with a basic GitHub workflow.
+
+This is a simple [Next.js](https://nextjs.org/) starter template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) are included and configured with a bunch of rules. It also comes with a basic GitHub workflow and Dependabot configuration.
 
 **Stack:**
+
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -28,11 +30,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Lint
 
 **Check**
+
 ```
 pnpm lint
 ```
 
 **Fix**
+
 ```
 pnpm lint:fix
 ```
@@ -40,22 +44,27 @@ pnpm lint:fix
 ### Prettier
 
 **Check**
+
 ```
 pnpm prettier
 ```
 
 **Fix**
+
 ```
 pnpm prettier:fix
 ```
 
 ### Tests
+
 **With Vitest**
+
 ```
 pnpm test
 ```
 
 ### Check types
+
 ```
 pnpm types
 ```
