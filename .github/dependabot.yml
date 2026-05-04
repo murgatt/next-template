@@ -5,14 +5,14 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'monthly'
     versioning-strategy: increase
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-patch']
     groups:
       eslint:
         patterns:
@@ -31,15 +31,15 @@ updates:
           - '@tailwindcss/postcss'
           - 'tailwindcss'
     commit-message:
-      prefix: "chore"
-      prefix-development: "chore"
-      include: "scope"
+      prefix: 'chore'
+      prefix-development: 'chore'
+      include: 'scope'
     open-pull-requests-limit: 10
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'monthly'
     commit-message:
-      prefix: "ci"
-      prefix-development: "ci"
-      include: "scope"
+      prefix: 'ci'
+      prefix-development: 'ci'
+      include: 'scope'
