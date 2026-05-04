@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "next": "16.2.3",
-    "next-intl": "4.9.1",
+    "next-intl": "4.11.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
