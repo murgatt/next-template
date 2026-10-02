@@ -16,8 +16,8 @@
   "dependencies": {
     "next": "16.3.6",
     "next-intl": "4.14.7",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
@@ -28,8 +28,8 @@
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
     "@types/node": "26.1.2",
-    "@types/react": "19.2.7",
-    "@types/react-dom": "19.2.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "5.1.1",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "9.39.1",
